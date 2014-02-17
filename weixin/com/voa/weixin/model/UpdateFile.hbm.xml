@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false" package="com.voa.weixin.model">
+ <class name="UpdateFile" table="updatefile">
+  	<id name="fid" column="fid"/>
+  	<property name="mediaId" column="mediaId"/>
+  	<property name="ftype" column="ftype"/>
+  	<property name="createAt" column="createAt"/>
+  	<property name="filePath" column="filePath"/>
+ </class>
+</hibernate-mapping>

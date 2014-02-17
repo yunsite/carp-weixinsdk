@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false" package="com.voa.weixin.model">
+ <class name="GroupFans" table="GroupFans">
+  	<id name="fansOpenId" column="fansOpenId"/>
+  	<property name="groupId" column="groupId"/>
+ </class>
+</hibernate-mapping>
