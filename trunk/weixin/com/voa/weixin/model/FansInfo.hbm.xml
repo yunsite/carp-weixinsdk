@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false" package="com.voa.weixin.model">
+ <class name="FansInfo" table="fansinfo">
+  	<id name="openId" column="openId"/>
+  	<property name="nickName" column="nickName"/>
+  	<property name="subscribe" column="subscribe"/>
+  	<property name="sex" column="sex"/>
+  	<property name="city" column="city"/>
+  	<property name="country" column="country"/>
+  	<property name="province" column="province"/>
+  	<property name="language" column="language"/>
+  	<property name="headimgUrl" column="headimgUrl"/>
+  	<property name="subscribeTime" column="subscribeTime"/>
+ </class>
+</hibernate-mapping>

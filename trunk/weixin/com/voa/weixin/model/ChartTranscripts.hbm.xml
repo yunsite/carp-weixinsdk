@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false" package="com.voa.weixin.model">
+ <class name="ChartTranscripts" table="ChartTranscripts">
+  	<id name="fid" column="fid"/>
+  	<property name="fromUser" column="fromUser"/>
+  	<property name="toUser" column="toUser"/>
+  	<property name="message" column="message"/>
+  	<property name="createTime" column="createTime"/>
+  	<property name="ftype" column="ftype"/>
+ </class>
+</hibernate-mapping>
